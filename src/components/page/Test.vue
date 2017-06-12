@@ -2,8 +2,8 @@
     <div class="table">
         <div class="crumbs">
             <el-breadcrumb separator="/">
-                <el-breadcrumb-item><i class="el-icon-menu"></i> 样例</el-breadcrumb-item>
-                <el-breadcrumb-item>保养列表</el-breadcrumb-item>
+                <el-breadcrumb-item><i class="el-icon-menu"></i> test</el-breadcrumb-item>
+                <el-breadcrumb-item>基础表格test</el-breadcrumb-item>
             </el-breadcrumb>
         </div>
 

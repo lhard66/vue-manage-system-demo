@@ -48,6 +48,14 @@ export default new Router({
                 {
                     path: '/drag',
                     component: resolve => require(['../components/page/DragList.vue'], resolve)    // 拖拽列表组件
+                },
+                {
+                    path:'/carlist',
+                    component:resolve=>require(['../components/page/deom/mt_orders.vue'],resolve)   //deom
+                },
+                {
+                    path:'/test',
+                    component: resolve => require(['../components/page/Test.vue'], resolve)    // test
                 }
             ]
         },

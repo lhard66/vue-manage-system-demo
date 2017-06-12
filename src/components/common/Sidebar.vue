@@ -76,6 +76,22 @@
                         icon: 'el-icon-upload2',
                         index: 'drag',
                         title: '拖拽'
+                    },
+                    {
+                        icon:'el-icon-edit',
+                        index:'deomlist',
+                        title:'样例',
+                        subs:[
+                            {
+                                index:'carList',
+                                title:'保养列表'
+                            }
+                        ]
+                    },
+                    {
+                        icon:'el-icon-search',
+                        index:'test',
+                        title:'测试'
                     }
                 ]
             }
