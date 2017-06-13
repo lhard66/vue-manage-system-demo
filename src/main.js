@@ -9,7 +9,7 @@ import "babel-polyfill";
 //路由权限
 router.beforeEach((to, from, next) => {
   if (to.path !== '/login') { // 如果不是跳转到登录页面则进行检测登录状态
-    if (false) { // 检测未登录则跳转到登录页面
+    if (false) { // 检测未登录则跳转到登录页面	checkLogin();
       next({ 'path': '/login' });
     } else {
     	console.log('用户已登陆');

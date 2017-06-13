@@ -15,6 +15,6 @@ export default (url, data, method = 'GET', options) => {
   if (options) {
     params = Object.assign(params, options);
   }
-  console.log(params);
+  // console.log(params);
   return axios(params);
 }
