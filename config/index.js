@@ -28,8 +28,8 @@ module.exports = {
         assetsSubDirectory: 'static',
         assetsPublicPath: '/',
         proxyTable: {
-            '/api':{
-                target:'http://jsonplaceholder.typicode.com',
+            '/car':{
+                target:'http://192.168.3.31:8080/car-business/car/maintance',
                 changeOrigin:true,
                 pathRewrite:{
                     '/api':''
