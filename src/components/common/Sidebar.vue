@@ -85,6 +85,9 @@
                             {
                                 index:'carList',
                                 title:'保养列表'
+                            },{
+                                index:'carform',
+                                title:'保养表单'
                             }
                         ]
                     },

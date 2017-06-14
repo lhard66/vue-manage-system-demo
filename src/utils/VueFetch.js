@@ -18,3 +18,4 @@ export default (url, data, method = 'GET', options) => {
   // console.log(params);
   return axios(params);
 }
+

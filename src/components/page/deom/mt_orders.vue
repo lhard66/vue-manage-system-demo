@@ -1,5 +1,5 @@
 <template>
-  <div class="table">
+  <div class="table" v-if="tableData!=null">
     <div class="crumbs">
       <el-breadcrumb separator="/">
         <el-breadcrumb-item><i class="el-icon-menu"></i> 样例</el-breadcrumb-item>
@@ -29,8 +29,8 @@
     <div class="pagination">
       <el-pagination @current-change="handleCurrentChange" layout="prev, pager, next" :total="tableData.total">
       </el-pagination>
-    </div>
-  </div>
+    </div>    
+  </div>  
 </template>
 <script>
 // import $axios from '../../../utils/VueFetch';
