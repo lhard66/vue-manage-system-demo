@@ -33,7 +33,6 @@
   </div>  
 </template>
 <script>
-// import $axios from '../../../utils/VueFetch';
 import vueaxios from '../../../utils/VueFetch';
 export default {
   data() {
